@@ -1,0 +1,27 @@
+{
+  "name": "ng-mdl",
+  "version": "1.0.0",
+  "description": "AngularJS directives based on material design lite styles",
+  "main": "ng-mdl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirIdeas/ng-mdl.git"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "author": "Alex J. Rondón <arondn2@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SirIdeas/ng-mdl/issues"
+  },
+  "homepage": "https://github.com/SirIdeas/ng-mdl#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1"
+  }
+}

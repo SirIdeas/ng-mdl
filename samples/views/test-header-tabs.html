@@ -1,0 +1,39 @@
+<div mdl-layout class="mdl-layout--fixed-header mdl-layout--fixed-tabs2">
+
+  <header mdl-layout-header>
+    <div mdl-layout-drawer-button>
+      <i class="material-icons">menu</i>
+    </div>
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">Title</span>
+    </div>
+  </header>
+
+  <div mdl-layout-drawer>
+    <span class="mdl-layout-title">Title</span>
+  </div>
+
+  <main mdl-layout-content style="padding:10px">
+    <div mdl-tabs mdl-layout-tabs="true">
+      <a mdl-tab="tab-01" class="is-active" ignore-ripple-effect>Tab 01</a>
+      <section mdl-tab-panel="tab-01" class="is-active">
+        <div class="page-content">1</div>
+        <div ng-include="'views/links.html'"></div>
+        <div ng-include="'views/content.html'"></div>
+      </section>
+      <a mdl-tab="tab-02">Tab 02</a>
+      <section mdl-tab-panel="tab-02">
+        <div class="page-content">2</div>
+        <div ng-include="'views/links.html'"></div>
+        <div ng-include="'views/content.html'"></div>
+      </section>
+      <a mdl-tab="tab-03">Tab 03</a>
+      <section mdl-tab-panel="tab-03">
+        <div class="page-content">3</div>
+        <div ng-include="'views/links.html'"></div>
+        <div ng-include="'views/content.html'"></div>
+      </section>
+    </div>
+  </main>
+
+</div>

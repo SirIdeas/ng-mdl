@@ -1,0 +1,43 @@
+<div mdl-layout class="mdl-layout--fixed-drawer mdl-layout--fixed-header" mode="waterfall">
+  
+  <header mdl-layout-header>
+  
+    <div class="mdl-layout__header-row">
+      <div mdl-layout-drawer-button>
+        <i class="material-icons">menu</i>
+      </div>
+      <span class="mdl-layout-title">Home</span>
+      <div class="mdl-layout-spacer"></div>
+      <div mdl-textfield class="mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right">
+        <label mdl-button class="mdl-button--icon" for="waterfall-exp">
+          <i class="material-icons">search</i>
+        </label>
+        <div class="mdl-textfield__expandable-holder">
+          <input class="mdl-textfield__input" type="text" name="sample" id="waterfall-exp">
+        </div>
+      </div>
+    </div>
+
+    <div class="mdl-layout__header-row">
+      <div class="mdl-layout-spacer"></div>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+      </nav>
+    </div>
+
+  </header>
+
+  <div mdl-layout-drawer
+       ng-include="'views/sidemenu.html'"
+       class="demo-drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
+  </div>
+
+  <main mdl-layout-content style="padding:10px">
+    <div ng-include="'views/links.html'"></div>
+    <div ng-include="'views/content.html'"></div>
+  </main>
+
+</div>

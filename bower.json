@@ -1,0 +1,30 @@
+{
+  "name": "ng-mdl",
+  "homepage": "https://github.com/SirIdeas/ng-mdl",
+  "authors": [
+    "Alex J. Rondón <arondn2@gmail.com>"
+  ],
+  "description": "AngularJS directives based on material design lite styles",
+  "main": "ng-mdl.js",
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.3",
+    "material-design-lite": "^1.3.0",
+    "material-design-icons": "^3.0.1"
+  },
+  "overrides": {
+    "material-design-lite": {
+      "main": []
+    }
+  }
+}

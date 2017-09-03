@@ -1,0 +1,57 @@
+<div ng-include="'views/links.html'"></div>
+<div>
+  <!-- Simple Textfield -->
+  <form action="#">
+    <div mdl-textfield class="mdl-textfield">
+      <input class="mdl-textfield__input" type="text" id="sample1">
+      <label class="mdl-textfield__label" for="sample1">Text...</label>
+    </div>
+  </form>
+  <!-- Numeric Textfield -->
+  <form action="#">
+    <div mdl-textfield class="mdl-textfield">
+      <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
+      <label class="mdl-textfield__label" for="sample2">Number...</label>
+      <span class="mdl-textfield__error">Input is not a number!</span>
+    </div>
+  </form>
+</div>
+
+<div>
+  <form action="#">
+    <div mdl-textfield class="mdl-textfield mdl-textfield--floating-label">
+      <input class="mdl-textfield__input" type="text" id="sample3">
+      <label class="mdl-textfield__label" for="sample3">Text...</label>
+    </div>
+  </form>
+  <!-- Numeric Textfield with Floating Label -->
+  <form action="#">
+    <div mdl-textfield class="mdl-textfield mdl-textfield--floating-label">
+      <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample4">
+      <label class="mdl-textfield__label" for="sample4">Number...</label>
+      <span class="mdl-textfield__error">Input is not a number!</span>
+    </div>
+  </form>
+</div>
+
+<div>
+  <!-- Floating Multiline Textfield -->
+  <form action="#">
+    <div mdl-textfield class="mdl-textfield">
+      <textarea class="mdl-textfield__input" type="text" rows= "3" id="sample5" ></textarea>
+      <label class="mdl-textfield__label" for="sample5">Text lines...</label>
+    </div>
+  </form>
+  <!-- Expandable Textfield -->
+  <form action="#">
+    <div mdl-textfield class="mdl-textfield mdl-textfield--expandable">
+      <label mdl-button class="mdl-button--icon" for="sample6">
+        <i class="material-icons">search</i>
+      </label>
+      <div class="mdl-textfield__expandable-holder">
+        <input class="mdl-textfield__input" type="text" id="sample6">
+        <label class="mdl-textfield__label" for="sample-expandable">Expandable Input</label>
+      </div>
+    </div>
+  </form>
+</div>
